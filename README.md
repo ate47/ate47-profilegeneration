@@ -27,3 +27,12 @@ You can know me from some of my projects
   * A multiplayer web mobile game in Java/JavaScript: [Atlas](https://github.com/ate47/S6Project---Atlas---Game)
   * A Space Invaders implementation using the MLV library: [Space Invaders](https://github.com/ate47/Space-invaders)
 * [Maven Packages](PACKAGE.md)
+
+### Discord 🎮
+
+If you want to talk with me without talking about an issue or a PR, my test server is here: https://discord.gg/wNH73Sg
+
+
+**Have a nice day with this picture of my cat** ❤️
+
+![my cat](garfield.jpg)
