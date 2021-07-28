@@ -10,7 +10,13 @@ I mainly know Java, JS, C and Python, but I have bases in many other languages l
 
 ### Frameworks 🌎
 
-I've used some frameworks mainly for Web and Network developpement like [Vue.JS 2/3](https://vuejs.org/), [Netty.io](https://netty.io/), [Spring](https://spring.io/) and [Flask](https://flask.palletsprojects.com/en/1.1.x/).
+I've used some frameworks mainly for Web, Machine Learning and Network developpement
+
+**Web** - [Vue.JS 2/3](https://vuejs.org/) (JS, Front-End), [Express](http://expressjs.com/) (JS, Back-End) [Spring](https://spring.io/) (Java, Back-End) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Python, Back-End).
+
+**Network** - [Netty.io](https://netty.io/) (Java)
+
+**Machine Learning** - [Tensorflow 2](https://www.tensorflow.org/) (Python), [scikit-learn](https://scikit-learn.org/) (Python).
 
 ### OS/Scripts 🖱️
 
