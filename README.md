@@ -1,5 +1,7 @@
 ## Hello from France!
 
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoine-willerval/) [![Discord](https://img.shields.io/badge/ATESabLab-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wNH73Sg)
+
 ### About me 🙂
 
 I'm a french developer working from Saint Etienne. I'm currently learning from the [Jean Monnet University](https://fac-sciences.univ-st-etienne.fr/en/departments/computer-science-department.html).
