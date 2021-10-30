@@ -8,7 +8,7 @@ I'm a french developer working from Saint Etienne. I'm currently learning from t
 
 ### Languages 🖥️
 
-I mainly know Java, JS, C and Python, but I have bases in many other languages like OCaml, Kotlin, Prolog, R.
+I mainly know JavaScript, Python, Java and C, but I have bases in many other languages like OCaml, Kotlin, Prolog, R.
 
 ### Frameworks 🌎
 
