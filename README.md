@@ -28,7 +28,7 @@ I'm from the team Microsoft with Windows 10 and Powershell 7, but I also know th
 
 You can know me from some of my projects
 
-* Minecraft mods on CurseForge: [My projects on CurseForge](https://www.curseforge.com/members/ate48/projects)
+* Minecraft mods on CurseForge: [My projects on CurseForge](https://www.curseforge.com/members/ate48/projects), latest download count: ``659,516`` (2021/11/13)
 * A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
 * Some university projects like
   * A compiler: [CPYRR](https://github.com/ate47/CPYRR)
