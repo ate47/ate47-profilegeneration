@@ -20,6 +20,8 @@ I've used some frameworks mainly for Web, Machine Learning and Network developpe
 
 **Machine Learning** - [Tensorflow 2](https://www.tensorflow.org/) (Python), [scikit-learn](https://scikit-learn.org/) (Python).
 
+**Multi-Agent Programming** - [JaCaMo](http://jacamo.sourceforge.net/) (Java / Prolog / ASL)
+
 ### OS/Scripts 🖱️
 
 I'm from the team Microsoft with Windows 10 and Powershell 7, but I also know the couple Unix/Bash.
