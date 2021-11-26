@@ -30,7 +30,7 @@ I'm from the team Microsoft with Windows 10 and Powershell 7, but I also know th
 
 You can know me from some of my projects
 
-* Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects), latest download count: ``659,516`` (2021/11/13) or [Modrinth](https://modrinth.com/user/DoVtMH0M)
+* Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects), latest download count: ``672,523`` (2021/11/26) or [Modrinth](https://modrinth.com/user/DoVtMH0M) <!-- TODO: create an action to fetch that automatically I have the time  -->
 * A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
 * Some university projects like
   * A compiler: [CPYRR](https://github.com/ate47/CPYRR)
