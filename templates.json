@@ -1,0 +1,8 @@
+{
+  "templates": [
+    {
+      "fileIn": "templates/README.md",
+      "fileOut": "README.md"
+    }
+  ]
+}
