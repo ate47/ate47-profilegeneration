@@ -24,5 +24,4 @@ jobs:
         env:
           APIKEY_CURSEFORGE: ${{ secrets.APIKEY_CURSEFORGE }}
           APIKEY_MODRINTH: ${{ secrets.APIKEY_MODRINTH }}
-        with:
-          target_branch: master
+        
