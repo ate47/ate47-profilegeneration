@@ -24,4 +24,5 @@ jobs:
         env:
           APIKEY_CURSEFORGE: ${{ secrets.APIKEY_CURSEFORGE }}
           APIKEY_MODRINTH: ${{ secrets.APIKEY_MODRINTH }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
