@@ -24,5 +24,11 @@ jobs:
         env:
           APIKEY_CURSEFORGE: ${{ secrets.APIKEY_CURSEFORGE }}
           APIKEY_MODRINTH: ${{ secrets.APIKEY_MODRINTH }}
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: master
+          target_branch: gh-pages
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
