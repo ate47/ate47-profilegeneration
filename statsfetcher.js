@@ -46,9 +46,6 @@ exports.fetchstats = async () => {
     .getMods(modrinthIds)
     .catch(fail("Can't fetch modrinth mods"));
 
-  //   .then((m) => m.map((mod) => mod.downloadCount))
-  //   .then((m) => m.map((mod) => mod.downloads))
-
   const downloadCountMR = modsMR
     .map((c) => c.downloads)
     .reduce((a, b) => a + b);
