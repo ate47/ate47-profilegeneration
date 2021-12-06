@@ -32,6 +32,8 @@ const fail = (msg) => (e) => {
   console.error(e);
 };
 
+exports.mods = mods;
+
 exports.fetchstats = async () => {
   const curseIds = mods.filter((m) => m.curseforge).map((m) => m.curseforge.id);
   const modsCF = await curseforge
@@ -60,5 +62,9 @@ exports.fetchstats = async () => {
     downloadCF: prettyNumber(downloadCountCF),
     downloadMR: prettyNumber(downloadCountMR),
     downloads: prettyNumber(totalDownloads),
+    mods: {
+      curseforge: modsCF,
+      modrinth: modsMR,
+    },
   };
 };

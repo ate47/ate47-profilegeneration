@@ -1,8 +1,5 @@
 {
-  "templates": [
-    {
-      "fileIn": "templates/README.md",
-      "fileOut": "public/README.md"
-    }
-  ]
+  "templates": "templates",
+  "output": "out",
+  "global": {}
 }
