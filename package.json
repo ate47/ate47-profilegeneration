@@ -2,7 +2,7 @@
   "name": "ate47",
   "version": "1.0.0",
   "description": "my github page",
-  "main": "statsfetcher.js",
+  "main": "index.js",
   "dependencies": {
     "axios": "^0.24.0",
     "fs": "^0.0.1-security",
