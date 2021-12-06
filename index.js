@@ -54,13 +54,13 @@ const renderTemplates = (inputPath, outputPath, view) => {
 };
 
 (async () => {
-  //   const stats = await fetchstats();
+  const stats = await fetchstats();
 
   const view = {
     download: {
-      curseforge: "stats.downloadCF",
-      modrinth: "stats.downloadMR",
-      total: "stats.downloads",
+      curseforge: stats.downloadCF,
+      modrinth: stats.downloadMR,
+      total: stats.downloads,
     },
     mods,
     global: templates.global,
