@@ -30,7 +30,7 @@ I'm from the team Microsoft with Windows 10 and Powershell 7, but I also know th
 
 You can know me from some of my projects
 
-- Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `TEMPLATE_downloads` (`TEMPLATE_downloadCF`, `TEMPLATE_downloadMR`).
+- [Minecraft mods](MODS.md) on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}` (`{{download.curseforge}}`, `{{download.modrinth}}`).
 - A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
 - Some university projects like
   - A compiler: [CPYRR](https://github.com/ate47/CPYRR)
