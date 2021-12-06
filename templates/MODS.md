@@ -8,8 +8,6 @@
 
 ### {{title}}
 
-<img src="{{img}}" alt="mod image" width="100" />
-
 {{#curseforge}}
 
 [<img src="imgs/curseforge.png" alt="curseforge" width="16"/> CurseForge]({{url}})
