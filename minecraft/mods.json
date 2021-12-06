@@ -5,6 +5,7 @@
         "id": 301609,
         "url": "https://www.curseforge.com/minecraft/mc-mods/xray-1-13-rift-modloader"
       },
+      "github": { "url": "https://github.com/ate47/Xray" },
       "title": "Xray Mod",
       "img": "https://media.forgecdn.net/avatars/248/826/637170410890416666.png"
     },
@@ -17,6 +18,7 @@
         "id": "zfssTdMF",
         "url": "https://modrinth.com/mod/horse-debug-info"
       },
+      "github": { "url": "https://github.com/ate47/HorseInfo" },
       "title": "Horse Debug Info",
       "img": "https://media.forgecdn.net/avatars/49/952/636084339577416961.png"
     },
@@ -29,6 +31,7 @@
         "id": "57tyahcz",
         "url": "https://modrinth.com/mod/cursormod"
       },
+      "github": { "url": "https://github.com/ate47/CursorMod" },
       "title": "Cursor Mod",
       "img": "https://media.forgecdn.net/avatars/147/189/636575153366622252.png"
     },
@@ -41,6 +44,7 @@
         "id": "yjyLUbhH",
         "url": "https://modrinth.com/mod/act"
       },
+      "github": { "url": "https://github.com/ate47/AdvancedCreativeTab" },
       "title": "Advanced Creative Tab",
       "img": "https://media.forgecdn.net/avatars/158/524/636652887647164978.png"
     },
@@ -49,6 +53,7 @@
         "id": 246934,
         "url": "https://www.curseforge.com/minecraft/mc-mods/the-autologin-mod-for-authme-server"
       },
+      "github": { "url": "https://github.com/ate47/AutoLoginMod" },
       "title": "AutoLogin",
       "img": "https://media.forgecdn.net/avatars/165/492/636692653735172206.png"
     },
@@ -57,6 +62,7 @@
         "id": 262881,
         "url": "https://www.curseforge.com/minecraft/mc-mods/command-spammer"
       },
+      "github": { "url": "https://github.com/ate47/CommandSpammer" },
       "title": "Command Spammer",
       "img": "https://media.forgecdn.net/avatars/91/971/636251579969201113.png"
     },
@@ -65,6 +71,7 @@
         "id": 289378,
         "url": "https://www.curseforge.com/minecraft/bukkit-plugins/customtabbukkit"
       },
+      "github": { "url": "https://github.com/ate47/CustomTabBukkit" },
       "title": "Custom Tab Information",
       "img": "https://media.forgecdn.net/avatars/144/501/636556360239941641.png"
     },
@@ -81,6 +88,7 @@
         "id": 256413,
         "url": "https://www.curseforge.com/minecraft/mc-mods/gm3-teleporter"
       },
+      "github": { "url": "https://github.com/ate47/GM3-Teleporter" },
       "title": "Spectator Teleporter",
       "img": "https://media.forgecdn.net/avatars/83/651/636189796134448757.png"
     },
@@ -97,6 +105,7 @@
         "id": 289273,
         "url": "https://www.curseforge.com/minecraft/bukkit-plugins/discordchatbridge"
       },
+      "github": { "url": "https://github.com/ate47/discordchatbridge" },
       "title": "Discord Chat Bridge",
       "img": "https://media.forgecdn.net/avatars/144/234/636554514689983305.png"
     }
