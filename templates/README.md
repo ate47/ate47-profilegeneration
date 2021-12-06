@@ -53,4 +53,4 @@ If you want to talk with me without talking about an issue or a PR, my test serv
 
 **Have a nice day with this picture of my cat** ❤️
 
-[![my cat](garfield.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![my cat](imgs/garfield.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
