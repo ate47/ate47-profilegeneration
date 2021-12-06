@@ -6,13 +6,25 @@ const mods = JSON.parse(fs.readFileSync("minecraft/mods.json")).mods;
 
 const prettyNumberBase = ["", "K", "M", "B"];
 
+/**
+ * add K/M/B suffix to a number
+ * @param {number} n the number
+ * @returns {string} the number with the suffix
+ */
 const prettyNumber = (n) => {
   let i = 0;
+  let prefix;
+  if (n < 0) {
+    n *= -1;
+    prefix = "-";
+  } else {
+    prefix = "";
+  }
   while (n / 1000 >= 1 && i < prettyNumberBase.length - 1) {
     n /= 1000;
     i++;
   }
-  return Math.floor(n) + prettyNumberBase[i];
+  return prefix + Math.floor(n * 10) / 10 + prettyNumberBase[i];
 };
 
 const fail = (msg) => (e) => {
