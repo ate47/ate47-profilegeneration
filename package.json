@@ -5,7 +5,8 @@
   "main": "statsfetcher.js",
   "dependencies": {
     "axios": "^0.24.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "mustache": "^4.2.0"
   },
   "devDependencies": {},
   "scripts": {
