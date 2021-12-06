@@ -3,7 +3,6 @@ const curseforge = require("./minecraft/curseforge");
 const modrinth = require("./minecraft/modrinth");
 
 const mods = JSON.parse(fs.readFileSync("minecraft/mods.json")).mods;
-const templates = JSON.parse(fs.readFileSync("templates.json")).templates;
 
 const prettyNumberBase = ["", "K", "M", "B"];
 
@@ -21,7 +20,7 @@ const fail = (msg) => (e) => {
   console.error(e);
 };
 
-(async () => {
+exports.fetchstats = async () => {
   const curseIds = mods.filter((m) => m.curseforge).map((m) => m.curseforge.id);
   const modsCF = await curseforge
     .getMods(curseIds)
@@ -45,30 +44,9 @@ const fail = (msg) => (e) => {
 
   const totalDownloads = downloadCountCF + downloadCountMR;
 
-  const templateData = {
-    TEMPLATE_downloadCF: prettyNumber(downloadCountCF),
-    TEMPLATE_downloadMR: prettyNumber(downloadCountMR),
-    TEMPLATE_downloads: prettyNumber(totalDownloads),
+  return {
+    downloadCF: prettyNumber(downloadCountCF),
+    downloadMR: prettyNumber(downloadCountMR),
+    downloads: prettyNumber(totalDownloads),
   };
-  const templateDataRegex = Object.keys(templateData).map((d) => ({
-    regex: new RegExp(d),
-    data: templateData[d],
-  }));
-
-  templates.forEach((template) => {
-    console.log(
-      "Writing template " +
-        template.fileIn +
-        " into " +
-        template.fileOut +
-        "..."
-    );
-    let text = fs.readFileSync(template.fileIn).toString();
-    templateDataRegex.forEach((k) => {
-      text = text.replace(k.regex, k.data);
-    });
-    fs.writeFileSync(template.fileOut, text);
-  });
-})()
-  .then(console.log)
-  .catch(console.error);
+};
