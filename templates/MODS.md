@@ -16,7 +16,7 @@
 [<img src="imgs/modrinth.png" alt="modrinth" width="16"/> Modrinth]({{{url}}})
 {{/modrinth}}
 {{#github}}
-[<img src="imgs/github.png" alt="github" width="16"/> Sources]({{[url]}})
+[<img src="imgs/github.png" alt="github" width="16"/> Sources]({{{url}}})
 {{/github}}
 
 {{^curseforge}}{{^modrinth}}{{^github}}Not available yet 😢{{/github}}{{/modrinth}}{{/curseforge}}
