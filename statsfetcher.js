@@ -30,6 +30,7 @@ const prettyNumber = (n) => {
 const fail = (msg) => (e) => {
   console.error(msg);
   console.error(e);
+  process.exit(-1);
 };
 
 exports.mods = mods;

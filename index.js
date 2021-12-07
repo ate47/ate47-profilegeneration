@@ -4,6 +4,11 @@ const path = require("path");
 const fs = require("fs");
 const fsextra = require("fs-extra");
 
+const fail = (e) => {
+  console.error(e);
+  process.exit(-1);
+}
+
 const templates = JSON.parse(fs.readFileSync("templates.json"));
 
 /**
@@ -29,18 +34,18 @@ const renderTemplates = (inputPath, outputPath, view) => {
   console.log("Reading path " + inputPath);
   fs.mkdir(outputPath, { recursive: true }, (err) => {
     if (err) {
-      return console.error("Unable to mkdir future directory: " + err);
+      return fail("Unable to mkdir future directory: " + err);
     }
     fs.readdir(inputPath, function (err, files) {
       if (err) {
-        return console.error("Unable to scan directory: " + err);
+        return fail("Unable to scan directory: " + err);
       }
       files.forEach((file) => {
         const finputPath = path.join(inputPath, file);
         const foutputPath = path.join(outputPath, file);
         fs.stat(finputPath, function (err, stat) {
           if (err) {
-            return console.error("Unable to scan directory: " + err);
+            return fail("Unable to scan directory: " + err);
           }
           if (stat.isDirectory()) {
             renderTemplates(finputPath, foutputPath, view);
@@ -73,11 +78,11 @@ const renderTemplates = (inputPath, outputPath, view) => {
     },
     (err) => {
       if (err) {
-        return console.error("Unable to clone directory: " + err);
+        return fail("Unable to clone directory: " + err);
       }
       renderTemplates(templates.templates, templates.output, view);
     }
   );
 })()
   .then(console.log)
-  .catch(console.error);
+  .catch(fail);
