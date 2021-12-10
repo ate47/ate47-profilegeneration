@@ -55,4 +55,4 @@ If you want to talk with me without talking about an issue or a PR, my test serv
 
 [![my cat](imgs/garfield.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-<font size="2">Generated using the [Mustache](https://github.com/janl/mustache.js) template system.</font>
+Generated using the [Mustache](https://github.com/janl/mustache.js) template system.
