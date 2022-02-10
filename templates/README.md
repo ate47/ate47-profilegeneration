@@ -4,7 +4,7 @@
 
 ### About me 🙂
 
-I'm a french developer working from Saint Etienne. I'm currently learning from the [Jean Monnet University](https://fac-sciences.univ-st-etienne.fr/en/departments/computer-science-department.html).
+I'm a french developer working from Saint Etienne. I'm currently working for [The QA Company](https://the-qa-company.com/).
 
 ### Languages 🖥️
 
