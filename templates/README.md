@@ -4,7 +4,7 @@
 
 ### About me 🙂
 
-I'm a french developer working from Saint Etienne. I'm currently working for [The QA Company](https://the-qa-company.com/).
+I'm a french developer working from Saint Etienne. I'm currently learning from the [Jean Monnet University](https://fac-sciences.univ-st-etienne.fr/en/departments/computer-science-department.html).
 
 ### Languages 🖥️
 
@@ -30,7 +30,7 @@ I'm from the team Microsoft with Windows 10 and Powershell 7, but I also know th
 
 You can know me from some of my projects
 
-- [Minecraft mods](MODS.md) on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}` (`{{download.curseforge}}`, `{{download.modrinth}}`).
+- Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}`.
 - A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
 - Some university projects like
   - A compiler: [CPYRR](https://github.com/ate47/CPYRR)

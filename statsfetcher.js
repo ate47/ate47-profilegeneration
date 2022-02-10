@@ -43,26 +43,26 @@ exports.fetchstats = async () => {
 
   const modrinthIds = mods.filter((m) => m.modrinth).map((m) => m.modrinth.id);
 
-  const modsMR = await modrinth
-    .getMods(modrinthIds)
-    .catch(fail("Can't fetch modrinth mods"));
+  // const modsMR = await modrinth
+  //   .getMods(modrinthIds)
+  //   .catch(fail("Can't fetch modrinth mods"));
 
-  const downloadCountMR = modsMR
-    .map((c) => c.downloads)
-    .reduce((a, b) => a + b);
+  // const downloadCountMR = modsMR
+  //   .map((c) => c.downloads)
+  //   .reduce((a, b) => a + b);
   const downloadCountCF = modsCF
     .map((c) => c.downloadCount)
     .reduce((a, b) => a + b);
 
-  const totalDownloads = downloadCountCF + downloadCountMR;
+  const totalDownloads = downloadCountCF; // + downloadCountMR;
 
   return {
     downloadCF: prettyNumber(downloadCountCF),
-    downloadMR: prettyNumber(downloadCountMR),
+    // downloadMR: prettyNumber(downloadCountMR),
     downloads: prettyNumber(totalDownloads),
     mods: {
       curseforge: modsCF,
-      modrinth: modsMR,
+      //modrinth: modsMR,
     },
   };
 };

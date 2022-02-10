@@ -64,7 +64,7 @@ const renderTemplates = (inputPath, outputPath, view) => {
   const view = {
     download: {
       curseforge: stats.downloadCF,
-      modrinth: stats.downloadMR,
+      // modrinth: stats.downloadMR,
       total: stats.downloads,
     },
     mods,
