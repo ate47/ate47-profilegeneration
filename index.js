@@ -69,6 +69,7 @@ const renderTemplates = (inputPath, outputPath, view) => {
     },
     mods,
     global: templates.global,
+    today: new Date().toUTCString()
   };
   fsextra.copy(
     "public",
