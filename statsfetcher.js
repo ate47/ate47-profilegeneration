@@ -64,5 +64,6 @@ exports.fetchstats = async () => {
       curseforge: modsCF,
       //modrinth: modsMR,
     },
+    today: new Date().toUTCString()
   };
 };
