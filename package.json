@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ate47/ate47.git"
+    "url": "git+https://github.com/ate47/ate47-profilegeneration.git"
   },
   "author": "ATE47",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ate47/ate47/issues"
+    "url": "https://github.com/ate47/ate47-profilegeneration/issues"
   },
-  "homepage": "https://github.com/ate47/ate47#readme"
+  "homepage": "https://github.com/ate47/"
 }
