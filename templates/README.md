@@ -30,7 +30,7 @@ I'm from the team Microsoft with Windows 10 and Powershell 7, but I also know th
 
 You can know me from some of my projects
 
-- Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}` ({{today}}).
+- Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}`.
 - A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
 - Some university projects like
   - A compiler: [CPYRR](https://github.com/ate47/CPYRR)
@@ -47,7 +47,7 @@ If you want to talk with me without talking about an issue or a PR, my test serv
 
 ### Tool box (for myself) 📐
 
-[AtianConfig repo](https://github.com/ate47/AtianConfig) / [Cours repo](https://github.com/ate47/Cours) / [Page master branch](https://github.com/ate47/ate47/tree/master)
+[AtianConfig repo](https://github.com/ate47/AtianConfig) / [Cours repo](https://github.com/ate47/Cours) / [Profile generation repo](https://github.com/ate47/ate47-profilegeneration)
 
 ### Caty bye
 
