@@ -60,6 +60,9 @@ exports.fetchstats = async () => {
     downloadCF: prettyNumber(downloadCountCF),
     // downloadMR: prettyNumber(downloadCountMR),
     downloads: prettyNumber(totalDownloads),
+    downloadCFRaw: downloadCountCF,
+    // downloadMRRaw: downloadCountMR,
+    downloadsRaw: totalDownloads,
     mods: {
       curseforge: modsCF,
       //modrinth: modsMR,
