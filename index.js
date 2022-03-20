@@ -7,7 +7,7 @@ const fsextra = require("fs-extra");
 const fail = (e) => {
   console.error(e);
   process.exit(-1);
-}
+};
 
 const templates = JSON.parse(fs.readFileSync("templates.json"));
 
@@ -69,7 +69,8 @@ const renderTemplates = (inputPath, outputPath, view) => {
     },
     mods,
     global: templates.global,
-    today: new Date().toUTCString()
+    today: new Date().toUTCString(),
+    timestamp: new Date().getTime(),
   };
   fsextra.copy(
     "public",
@@ -82,6 +83,10 @@ const renderTemplates = (inputPath, outputPath, view) => {
         return fail("Unable to clone directory: " + err);
       }
       renderTemplates(templates.templates, templates.output, view);
+      fs.writeFileSync(
+        templates.output + "/values.json",
+        JSON.stringify(view, undefined, 4)
+      );
     }
   );
 })()
