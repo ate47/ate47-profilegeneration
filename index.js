@@ -1,5 +1,5 @@
 const Mustache = require("mustache");
-const { fetchstats, mods } = require("./statsfetcher");
+const { fetchstats, mods, prettyNumber } = require("./statsfetcher");
 const path = require("path");
 const fs = require("fs");
 const fsextra = require("fs-extra");
@@ -10,6 +10,7 @@ const fail = (e) => {
 };
 
 const templates = JSON.parse(fs.readFileSync("templates.json"));
+const oldValues = JSON.parse(fs.readFileSync("values.json"));
 
 /**
  * render a file into another
@@ -58,8 +59,31 @@ const renderTemplates = (inputPath, outputPath, view) => {
   });
 };
 
+const computeDownloadMin = (timestamp) => {
+  const data = oldValues.oldDownloads || [];
+  const start = timestamp - templates.downloadMaxTime;
+  return data
+    .filter((el) => el.timestamp > start)
+    .reduce(
+      (el1, el2) => {
+        if (el1.timestamp > el2.timestamp) {
+          return el2;
+        } else {
+          return el1;
+        }
+      },
+      {
+        timestamp,
+        totalRaw: 0,
+      }
+    ).totalRaw;
+};
+
 (async () => {
   const stats = await fetchstats();
+
+  const timestamp = new Date().getTime();
+  const downloadDelta = stats.downloadsRaw - computeDownloadMin(timestamp);
 
   const view = {
     download: {
@@ -69,12 +93,24 @@ const renderTemplates = (inputPath, outputPath, view) => {
       curseforgeRaw: stats.downloadCFRaw,
       // modrinthRaw: stats.downloadMRRaw,
       totalRaw: stats.downloadsRaw,
+      downloadDelta: prettyNumber(downloadDelta),
+      downloadDeltaRaw: downloadDelta,
     },
+    oldDownloads: [
+      ...(oldValues.oldDownloads || []),
+      {
+        timestamp,
+        totalRaw: stats.downloadsRaw,
+        delta: downloadDelta,
+      },
+    ],
     mods,
     global: templates.global,
     today: new Date().toUTCString(),
-    timestamp: new Date().getTime(),
+    timestamp,
   };
+
+  console.log("Current download delta: " + view.download.downloadDelta);
   fsextra.copy(
     "public",
     templates.output,

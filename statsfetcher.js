@@ -33,6 +33,7 @@ const fail = (msg) => (e) => {
   process.exit(-1);
 };
 
+exports.prettyNumber = prettyNumber;
 exports.mods = mods;
 
 exports.fetchstats = async () => {

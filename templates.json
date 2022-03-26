@@ -1,5 +1,6 @@
 {
   "templates": "templates",
   "output": "out",
-  "global": {}
+  "global": {},
+  "downloadMaxTime": 93600000
 }
