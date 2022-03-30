@@ -74,7 +74,7 @@ const computeDownloadMin = (timestamp) => {
       },
       {
         timestamp,
-        totalRaw: 0,
+        totalRaw: oldValues.download.totalRaw,
       }
     ).totalRaw;
 };
