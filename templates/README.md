@@ -8,7 +8,7 @@ I'm a French developer working from Saint Etienne. I'm currently working for [Th
 
 ### Languages 🖥️
 
-I mainly know JavaScript, Python, Java and C, but I have bases in many other languages like OCaml, Kotlin, Prolog, R.
+I mainly know Java, C, JavaScript and Python, but I have bases in many other languages like OCaml, Kotlin, Prolog, R.
 
 ### Frameworks 🌎
 
@@ -18,9 +18,11 @@ I've used some frameworks mainly for Web, Machine Learning and Network developpe
 
 **Network** - [Netty.io](https://netty.io/) (Java)
 
-**Machine Learning** - [Tensorflow 2](https://www.tensorflow.org/) (Python), [scikit-learn](https://scikit-learn.org/) (Python).
+**Machine Learning** - [Tensorflow 2](https://www.tensorflow.org/) (Python), [scikit-learn](https://scikit-learn.org/) (Python)
 
-**Multi-Agent Programming** - [JaCaMo](http://jacamo.sourceforge.net/) (Java / Prolog / ASL)
+### CI/CD
+
+- Usage of Github Actions
 
 ### OS/Scripts 🖱️
 
