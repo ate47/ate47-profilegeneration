@@ -60,7 +60,7 @@ exports.fetchstats = async () => {
   return {
     downloadCF: prettyNumber(downloadCountCF),
     // downloadMR: prettyNumber(downloadCountMR),
-    downloads: prettyNumber(totalDownloads),
+    downloads: totalDownloads.toLocaleString("en-US"),
     downloadCFRaw: downloadCountCF,
     // downloadMRRaw: downloadCountMR,
     downloadsRaw: totalDownloads,
