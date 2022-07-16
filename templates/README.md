@@ -51,7 +51,7 @@ If you want to talk with me without talking about an issue or a PR, my test serv
 
 ### Tool box (for myself) 📐
 
-[AtianConfig repo](https://github.com/ate47/AtianConfig) / [Profile generation repo](https://github.com/ate47/ate47-profilegeneration)
+[AtianConfig repo ⚙️](https://github.com/ate47/AtianConfig) / [Profile generation repo 🙂](https://github.com/ate47/ate47-profilegeneration) / [Mods CI sync repo 🚀](https://github.com/ate47/mc_ci)
 
 ### Caty bye
 
