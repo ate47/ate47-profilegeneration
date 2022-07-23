@@ -8,15 +8,15 @@ I'm a French developer working from Saint Etienne. I'm currently working for [Th
 
 ### Languages 🖥️
 
-I mainly know Java, C, JavaScript and Python, but I have bases in many other languages like OCaml, Kotlin, Prolog, R.
+I mainly know Java, C, JavaScript, TypeScript and Python, but I have bases in many other languages like OCaml, Kotlin, Prolog, R and Go.
 
 ### Frameworks 🌎
 
 I've used some frameworks mainly for Web, Machine Learning and Network developpement
 
-**Web** - [Vue.JS 2/3](https://vuejs.org/) (JS, Front-End), [Express](http://expressjs.com/) (JS, Back-End) [Spring](https://spring.io/) (Java, Back-End) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Python, Back-End).
+**Web** - [Vue.JS 2/3](https://vuejs.org/) (JS, Front-End), [React](https://reactjs.org/) [Express](http://expressjs.com/) (JS, Back-End) [Spring](https://spring.io/) (Java, Back-End) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Python, Back-End).
 
-**Semantic Web** - [RDF4J](https://rdf4j.org/) (Java)
+**Semantic Web** - [RDF4J](https://rdf4j.org/) (Java), [Apache Jean](https://jena.apache.org/) (Java), [RDF-HDT](http://rdfhdt.org/) (Java)
 
 **Network** - [Netty.io](https://netty.io/) (Java)
 
@@ -35,6 +35,7 @@ I'm from the team Microsoft with Windows and Powershell 7, but I also know the c
 You can know me from some of my projects
 
 - Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}` ![svg](imgs/stonk.svg)
+- Chrome extension to call the Call of Duty API with old games [CodExtension](https://github.com/ate47/CodExtension)
 - A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
 - Some university projects like
   - A compiler: [CPYRR](https://github.com/ate47/CPYRR)
