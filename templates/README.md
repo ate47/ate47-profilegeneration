@@ -14,7 +14,7 @@ I mainly know Java, C, JavaScript, TypeScript and Python, but I have bases in ma
 
 I've used some frameworks mainly for Web, Machine Learning and Network developpement
 
-**Web** - [Vue.JS 2/3](https://vuejs.org/) (JS, Front-End), [React](https://reactjs.org/) [Express](http://expressjs.com/) (JS, Back-End) [Spring](https://spring.io/) (Java, Back-End) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Python, Back-End).
+**Web** - [Vue.JS 2/3](https://vuejs.org/) (JS, Front-End), [React](https://reactjs.org/) (JS, Front-End), [Express](http://expressjs.com/) (JS, Back-End) [Spring](https://spring.io/) (Java, Back-End) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Python, Back-End).
 
 **Semantic Web** - [RDF4J](https://rdf4j.org/) (Java), [Apache Jean](https://jena.apache.org/) (Java), [RDF-HDT](http://rdfhdt.org/) (Java)
 
