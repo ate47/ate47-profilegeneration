@@ -16,7 +16,7 @@ I've used some frameworks mainly for Web, Machine Learning and Network developpe
 
 **Web** - [Vue.JS 2/3](https://vuejs.org/) (JS, Front-End), [React](https://reactjs.org/) (JS, Front-End), [Express](http://expressjs.com/) (JS, Back-End) [Spring](https://spring.io/) (Java, Back-End) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Python, Back-End).
 
-**Semantic Web** - [RDF4J](https://rdf4j.org/) (Java), [Apache Jean](https://jena.apache.org/) (Java), [RDF-HDT](http://rdfhdt.org/) (Java)
+**Semantic Web** - [RDF4J](https://rdf4j.org/) (Java), [Apache Jena](https://jena.apache.org/) (Java), [RDF-HDT](http://rdfhdt.org/) (Java)
 
 **Network** - [Netty.io](https://netty.io/) (Java)
 
