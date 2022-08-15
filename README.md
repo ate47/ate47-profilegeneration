@@ -53,9 +53,3 @@ node index.js
 - `GH_PAT` - The Github token to publish the page, [you can get one here](https://github.com/settings/tokens), select only the repo permission. if you want to publish directly to another branch, replace in the [node.js.yml](.github/workflows/node.js.yml) file every `GH_PAT` to `GITHUB_TOKEN`, no env variable
 
 Then run the action
-
-## My Cat
-
-The name of my little kitten is Garfield, I hope you love him too ❤️
-
-![my cat](public/imgs/garfield.jpg)
