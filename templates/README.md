@@ -54,10 +54,4 @@ If you want to talk with me without talking about an issue or a PR, my test serv
 
 [AtianConfig repo ⚙️](https://github.com/ate47/AtianConfig) / [Profile generation repo 🙂](https://github.com/ate47/ate47-profilegeneration) / [Mods CI sync repo 🚀](https://github.com/ate47/mc_ci)
 
-### Caty bye
-
-**Have a nice day with this picture of my cat** ❤️
-
-[![my cat](imgs/garfield.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
 Generated using the [Mustache](https://github.com/janl/mustache.js) template system.
