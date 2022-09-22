@@ -38,7 +38,7 @@ If this is true, you can fork the repository of a mod, update the fabric.mod.jso
 
 ## How does the version system works?
 
-(I don't have the link to the page explaining it, but if I find it, I will add it here)
+This system is close to the [semantic versionning](https://semver.org/).
 
 versions are named like that: X.Y.ZW
 
