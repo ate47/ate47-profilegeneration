@@ -48,7 +48,7 @@ You can know me from some of my projects
 
 ### Discord 🎮
 
-If you want to talk with me without talking about an issue or a PR, my test server is here: https://discord.gg/wNH73Sg
+If you want to talk with me without talking about an issue or a PR, my Discord test server is here: https://discord.gg/wNH73Sg
 
 ### Tool box (for myself) 📐
 
