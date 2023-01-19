@@ -4,7 +4,7 @@
 
 ### About me 🙂
 
-I'm a French researcher and developer working from Saint Etienne. I'm currently doing a PhD with the [LIRIS](https://liris.cnrs.fr/) and [The QA Company](https://the-qa-company.com/).
+I'm a French researcher and developer working from [Saint Etienne](https://www.openstreetmap.org/#map=14/45.4404/4.3990). I'm currently doing a PhD with the [LIRIS](https://liris.cnrs.fr/) and [The QA Company](https://the-qa-company.com/).
 
 ### Languages 🖥️
 

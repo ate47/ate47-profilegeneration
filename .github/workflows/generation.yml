@@ -2,7 +2,7 @@ name: Compile and deploy
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
   push:
@@ -16,9 +16,9 @@ jobs:
       url: "https://github.com/ate47"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.3.0
       - name: Use Node.js 16.x
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3.6.0
         with:
           node-version: 16.x
           cache: "npm"
@@ -30,7 +30,7 @@ jobs:
           APIKEY_MODRINTH: ${{ secrets.APIKEY_MODRINTH }}
       - name: Deploy md to GitHub Pages
         if: success()
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: gh-pages
           repo: ate47/ate47
