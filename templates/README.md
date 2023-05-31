@@ -6,30 +6,6 @@
 
 I'm a French researcher and developer working from [Saint Etienne](https://www.openstreetmap.org/#map=14/45.4404/4.3990). I'm currently doing a PhD with the [LIRIS](https://liris.cnrs.fr/) and [The QA Company](https://the-qa-company.com/).
 
-### Languages 🖥️
-
-I mainly know Java, C, JavaScript, TypeScript and Python, but I have bases in many other languages like OCaml, Kotlin, Prolog, R and Go.
-
-### Frameworks 🌎
-
-I've used some frameworks mainly for Web, Machine Learning and Network developpement
-
-**Web** - [Vue.JS 2/3](https://vuejs.org/) (JS, Front-End), [React](https://reactjs.org/) (JS, Front-End), [Express](http://expressjs.com/) (JS, Back-End) [Spring](https://spring.io/) (Java, Back-End) and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (Python, Back-End).
-
-**Semantic Web** - [RDF4J](https://rdf4j.org/) (Java), [Apache Jena](https://jena.apache.org/) (Java), [RDF-HDT](http://rdfhdt.org/) (Java)
-
-**Network** - [Netty.io](https://netty.io/) (Java)
-
-**Machine Learning** - [Tensorflow 2](https://www.tensorflow.org/) (Python), [scikit-learn](https://scikit-learn.org/) (Python)
-
-### CI/CD 💤
-
-- Usage of Github Actions
-
-### OS/Scripts 🖱️
-
-I'm from the team Microsoft with Windows and Powershell 7, but I also know the couple Unix/Bash. <!-- and OSX/zsh 🤮  -->
-
 ### My projects 🌵
 
 You can know me from some of my projects
@@ -53,5 +29,11 @@ If you want to talk with me without talking about an issue or a PR, my Discord t
 ### Tool box (for myself) 📐
 
 [AtianConfig repo ⚙️](https://github.com/ate47/AtianConfig) / [Profile generation repo 🙂](https://github.com/ate47/ate47-profilegeneration) / [Mods CI sync repo 🚀](https://github.com/ate47/mc_ci)
+
+<h1 align="center">
+  <a href="https://www.youtube.com/watch?v=HLHn3mGyqjk">
+    <img src="imgs/banner.png" alt="Logo" width="100%" />
+  </a>
+</h1>
 
 Generated using [Mustache](https://github.com/janl/mustache.js).
