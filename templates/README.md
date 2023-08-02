@@ -11,7 +11,7 @@ I'm a French researcher and developer working from [Saint Etienne](https://www.o
 You can know me from some of my projects
 
 - Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}` ![svg](imgs/stonk.svg)
-- Chrome extension to call the Call of Duty API with old games [CodExtension](https://github.com/ate47/CodExtension)
+- Some random things with Call of Duty ([BO4 Internal information](https://github.com/ate47/t8-atian-menu) / [API description](https://github.com/ate47/COD))
 - A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
 - Some university projects like
   - A compiler: [CPYRR](https://github.com/ate47/CPYRR)
