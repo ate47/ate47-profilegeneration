@@ -20,7 +20,7 @@ You can know me from some of my projects
 - [Maven Packages](PACKAGE.md)
 
 ![stats](https://github-readme-stats.vercel.app/api?username=ATE47&show_icons=true&theme=default)
-![stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ATE47&theme=default&layout=compact)
+![stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ATE47&theme=default&layout=compact&exclude_repo=bo4-source)
 
 ### Discord 🎮
 
