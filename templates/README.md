@@ -30,6 +30,6 @@ If you want to talk with me without talking about an issue or a PR, my Discord t
 
 [AtianConfig repo ⚙️](https://github.com/ate47/AtianConfig) / [Profile generation repo 🙂](https://github.com/ate47/ate47-profilegeneration) / [Mods CI sync repo 🚀](https://github.com/ate47/mc_ci)
 
-[![banner](https://raw.githubusercontent.com/ate47/ate47-profilegeneration/master/public/imgs/banner.png)](https://www.youtube.com/watch?v=HLHn3mGyqjk)
+[![banner](https://raw.githubusercontent.com/ate47/ate47-profilegeneration/master/public/imgs/banner.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 Generated using [Mustache](https://github.com/janl/mustache.js).
