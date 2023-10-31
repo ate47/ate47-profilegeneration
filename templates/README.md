@@ -12,12 +12,6 @@ You can know me from some of my projects
 
 - Minecraft mods on [CurseForge](https://www.curseforge.com/members/ate48/projects) or [Modrinth](https://modrinth.com/user/DoVtMH0M), Download count: `{{download.total}}` ![svg](imgs/stonk.svg)
 - Some random things with Call of Duty ([BO4 Internal information](https://github.com/ate47/t8-atian-menu) / [API description](https://github.com/ate47/COD))
-- A ClientQuery wrapper for Teamspeak 3: [TSClientQuery_Java](https://github.com/ate47/TSClientQuery_Java-Client)
-- Some university projects like
-  - A compiler: [CPYRR](https://github.com/ate47/CPYRR)
-  - A multiplayer web mobile game in Java/JavaScript: [Atlas](https://github.com/ate47/S6Project---Atlas---Game)
-  - A Space Invaders implementation using the MLV library: [Space Invaders](https://github.com/ate47/Space-invaders)
-- [Maven Packages](PACKAGE.md)
 
 ![stats](https://github-readme-stats.vercel.app/api?username=ATE47&show_icons=true&theme=default)
 ![stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ATE47&theme=default&layout=compact&exclude_repo=bo4-source)
